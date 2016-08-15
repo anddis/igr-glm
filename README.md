@@ -13,7 +13,7 @@ Stata files:
 R files:
 * `log_igr.R`: Log-IGR link function for GLM
 * `logit_igr.R`: Logit-IGR link function for GLM
-* `example_R.R`: Worked-out example in Stata (survival in metastatic renal carcinoma)
+* `example_R.R`: Worked-out example in R (survival in metastatic renal carcinoma)
 
 ---
 
