@@ -17,4 +17,4 @@ R files:
 
 ---
 
-See also: http://www.imm.ki.se/biostatistics/gr/index.html
+See also: http://www.imm.ki.se/biostatistics/gr/index.htm
