@@ -1,0 +1,4 @@
+*************** stata.toc
+v 3
+d 'IGR_GLM': Instantaneous geometric rates via Generalized Linear Models
+p igr_glm

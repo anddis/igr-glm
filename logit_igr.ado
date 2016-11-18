@@ -1,3 +1,5 @@
+*! version 1.0 - 20160719
+
 capture program drop logit_igr
 program define logit_igr
 	version 7

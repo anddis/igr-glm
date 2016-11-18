@@ -1,0 +1,13 @@
+*************** igr_glm.toc
+d 'IGR_GLM': Instantaneous geometric rates via Generalized Linear Models
+d
+d Distribution-Date: 20160719
+d
+d Authors:  A.Discacciati, M.Bottai
+d			 Karolinska Institutet, Stockholm, Sweden
+d
+d Support: email andrea.discacciati@ki.se
+d
+f log_igr.ado
+f logit_igr.ado
+f example_stata.do

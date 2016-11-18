@@ -1,3 +1,5 @@
+*! version 1.0 - 20160719
+
 capture program drop log_igr
 program define log_igr
 	version 7
