@@ -1,5 +1,4 @@
-*! version 1.0 - 20160719
-
+*! version 1.0.0 - 07dec2016
 capture program drop log_igr
 program define log_igr
 	version 7
@@ -8,7 +7,12 @@ program define log_igr
 	if `todo' == -1 { /* Title */
 		global SGLM_lt "Log IGR"
 		global SGLM_lf "log(1-exp(-u/$SGLM_p))"
-		confirm numeric variable $SGLM_p
+		capture confirm numeric variable $SGLM_p
+			if _rc != 0 {
+				noi di as error "argument ($SGLM_p) to log_igr " /*
+				*/ "link function must be a numeric variable"
+				exit 198
+			}
 		exit
 	}		
 	if `todo' == 0 { /* eta = g(mu) */

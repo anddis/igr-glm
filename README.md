@@ -1,5 +1,5 @@
 ## Instantaneous geometric rates via Generalized Linear Models
-#### Version 1.0 (2016-07-19)
+#### Version 1.0 (2016-12-07)
 
 The instantaneous geometric rate represents the instantaneous probability of an event of interest per unit of time. We propose to model the effect of covariates on the instantaneous geometric rate with two models: the proportional instantaneous geometric rate and the proportional instantaneous geometric odds model. These models can be fit within the Generalized Linear Model framework by using two nonstandard link functions, which we implement in the user-defined link programs `log_igr` and `logit_igr`. 
 

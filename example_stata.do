@@ -1,7 +1,7 @@
 ** Instantaneous geometric rates via Generalized Linear Models
 ** Andrea Discacciati, Matteo Bottai
 
-* Code to reproduce examples in the manuscript
+* Code to reproduce the example in the manuscript
 
 // chunk 1
 use http://www.imm.ki.se/biostatistics/data/kidney, clear
@@ -12,7 +12,7 @@ rcsgen _t, df(3) if2(_d == 1) gen(_rcs)
 //
 
 // chunk 2
-glm _d i.trt c._rcs?, family(poisson) link(log_igr risktime) vce(robust) nolog search
+glm _d i.trt c._rcs?, family(poisson) link(log_igr risktime) vce(robust) nolog search eform
 //
 
 // chunk 3
