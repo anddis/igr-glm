@@ -12,7 +12,7 @@ The instantaneous geometric rate represents the instantaneous probability of an 
 * `logit_igr.ado`: Logit-IGR link program for GLM
 * `example_stata.do`: Worked-out example in Stata (survival in metastatic renal carcinoma)
 
-To download these Stata files from GitHub, type
+To install these Stata programs directly from GitHub, type
 
 	net describe igr_glm, from("https://raw.githubusercontent.com/anddis/igr_glm/master/")
 
