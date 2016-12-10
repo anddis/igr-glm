@@ -7,8 +7,6 @@ The instantaneous geometric rate represents the instantaneous probability of an 
 
 ### Quick description of the files contained in this repository:
 
-* `igr-glm_sj_2016.pdf`: manuscript under revision by the Stata Journal ([www.stata-journal.com](http://www.stata-journal.com))
-
 **Stata files**:
 * `log_igr.ado`: Log-IGR link program for GLM
 * `logit_igr.ado`: Logit-IGR link program for GLM
