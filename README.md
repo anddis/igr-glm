@@ -27,4 +27,8 @@ from within a web-aware Stata and follow the instructions.
 
 Andrea Discacciati and Matteo Bottai (Karolinska Institutet, Stockholm, Sweden)
 
+### References
+
+Discacciati A, Bottai M. _Instantaneous geometric rates via generalized linear models_. Stata J. 2017;17(2):358-371.
+
 See also: http://www.imm.ki.se/biostatistics/gr/index.htm
